@@ -15,5 +15,35 @@
     "Smartphones": ["Smartphones1", "Smartphones2", "Smartphones3"],
     "Laptops": ["Laptops1", "Laptops2", "Laptops3"],
     "Audífonos": ["Audífonos1", "Audífonos2", "Audífonos3"]
+  },
+  "sales": {
+    "Cereal1": [933, 367, 58, 84],
+    "Cereal2": [39, 979, 53, 157],
+    "Cereal3": [194, 239, 90, 181],
+    "Quesos1": [349, 810, 256, 466],
+    "Quesos2": [329, 381, 939, 862],
+    "Quesos3": [178, 369, 740, 8],
+    "Jamones1": [214, 518, 905, 386],
+    "Jamones2": [46, 60, 310, 970],
+    "Jamones3": [714, 625, 671, 947],
+    "Zapatos1": [413, 578, 196, 969],
+    "Zapatos2": [403, 411, 426, 893],
+    "Zapatos3": [757, 92, 823, 750],
+    "T-Shirts1": [54, 779, 209, 441],
+    "T-Shirts2": [471, 755, 449, 537],
+    "T-Shirts3": [876, 145, 37, 298],
+    "Jeans1": [581, 590, 896, 205],
+    "Jeans2": [508, 142, 652, 357],
+    "Jeans3": [605, 320, 39, 335],
+    "Smartphones1": [112, 164, 237, 184],
+    "Smartphones2": [986, 761, 863, 231],
+    "Smartphones3": [449, 206, 808, 665],
+    "Laptops1": [140, 399, 497, 345],
+    "Laptops2": [8, 445, 542, 56],
+    "Laptops3": [266, 778, 644, 556],
+    "Audífonos1": [513, 133, 904, 656],
+    "Audífonos2": [647, 971, 914, 518],
+    "Audífonos3": [464, 385, 321, 322]
   }
 }
+

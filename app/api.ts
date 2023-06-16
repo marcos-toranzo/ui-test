@@ -15,3 +15,10 @@ export async function getProductBrands(product: string) {
   
   return brands[product as keyof typeof brands] ?? [];
 }
+
+export async function getBrandSales(brand: string) {
+  const sales = data["sales"];
+  
+  return sales[brand as keyof typeof sales] ?? [];
+  
+}

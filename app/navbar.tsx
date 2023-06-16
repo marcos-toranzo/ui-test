@@ -12,7 +12,7 @@ export default function Navbar() {
             Menu
           </a>
         </div>
-        <span>Sales Report</span>
+        <span className="text-white">Sales Report</span>
         <div className="row-auto">
           <Image
             src="/profile-placeholder.jpg"
@@ -21,7 +21,7 @@ export default function Navbar() {
             width={20}
             height={20}
           />
-          <span>User Name</span>
+          <span className="text-white">User Name</span>
         </div>
       </div>
     </nav>

@@ -1,7 +1,13 @@
 "use client";
 import { useEffect, useState } from "react";
-import { getCategories, getCategoryProducts, getProductBrands } from "./api";
+import {
+  getBrandSales,
+  getCategories,
+  getCategoryProducts,
+  getProductBrands,
+} from "./api";
 import Dropdown from "./dropdown";
+import { Chart } from "./chart";
 
 export default function Home() {
   const [categories, setCategories] = useState<string[]>([]);
@@ -10,8 +16,10 @@ export default function Home() {
   const [categoryProducts, setCategoryProducts] = useState<string[]>([]);
   const [selectedProduct, setSelectedProduct] = useState("");
 
-  const [productBrands, setproductBrands] = useState<string[]>([]);
+  const [productBrands, setProductBrands] = useState<string[]>([]);
   const [selectedBrand, setSelectedBrand] = useState("");
+
+  const [brandSales, setBrandSales] = useState<number[]>([0, 0, 0, 0]);
 
   useEffect(() => {
     getCategories().then((cats) => {
@@ -29,10 +37,16 @@ export default function Home() {
 
   useEffect(() => {
     getProductBrands(selectedProduct).then((brands) => {
-      setproductBrands(brands);
+      setProductBrands(brands);
       setSelectedBrand(brands[0]);
     });
   }, [selectedProduct]);
+
+  useEffect(() => {
+    getBrandSales(selectedBrand).then((sales) => {
+      setBrandSales(sales);
+    });
+  }, [selectedBrand]);
 
   return (
     <>
@@ -56,6 +70,7 @@ export default function Home() {
           onClick={(val) => setSelectedBrand(val)}
         />
       </div>
+      <Chart data={brandSales} />
     </>
   );
 }
