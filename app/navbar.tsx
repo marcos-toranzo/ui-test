@@ -13,13 +13,13 @@ export default function Navbar() {
           </a>
         </div>
         <span className="text-white">Sales Report</span>
-        <div className="row-auto">
+        <div className="flex flex-row">
           <Image
             src="/profile-placeholder.jpg"
-            className="rounded-full"
+            className="rounded-full pr-2"
             alt="profile"
-            width={20}
-            height={20}
+            width={30}
+            height={30}
           />
           <span className="text-white">User Name</span>
         </div>
