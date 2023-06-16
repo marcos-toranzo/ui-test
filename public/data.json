@@ -1,0 +1,19 @@
+{
+  "categories": ["Comida", "Ropa", "Tecnología"],
+  "products": {
+    "Comida" : ["Cereales", "Quesos", "Jamones"],
+    "Ropa" : ["Zapatos", "T-Shirts", "Jeans"],
+    "Tecnología" : ["Smartphones", "Laptops", "Audífonos"]
+  },
+  "brands": {
+    "Cereales": ["Cereal1", "Cereal2", "Cereal3"],
+    "Quesos": ["Quesos1", "Quesos2", "Quesos3"],
+    "Jamones": ["Jamones1", "Jamones2", "Jamones3"],
+    "Zapatos": ["Zapatos1", "Zapatos2", "Zapatos3"],
+    "T-Shirts": ["T-Shirts1", "T-Shirts2", "T-Shirts3"],
+    "Jeans": ["Jeans1", "Jeans2", "Jeans3"],
+    "Smartphones": ["Smartphones1", "Smartphones2", "Smartphones3"],
+    "Laptops": ["Laptops1", "Laptops2", "Laptops3"],
+    "Audífonos": ["Audífonos1", "Audífonos2", "Audífonos3"]
+  }
+}
